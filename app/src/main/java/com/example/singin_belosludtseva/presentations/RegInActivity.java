@@ -1,10 +1,12 @@
-package com.example.singin_belosludtseva;
+package com.example.singin_belosludtseva.presentations;
 
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.singin_belosludtseva.R;
 
 
 public class RegInActivity extends AppCompatActivity {

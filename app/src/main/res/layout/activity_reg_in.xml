@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#eaeaea"
-    tools:context=".RegInActivity">
+    tools:context=".presentations.RegInActivity">
 
     <LinearLayout
         android:id="@+id/linearLayout"

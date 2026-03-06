@@ -1,4 +1,4 @@
-package com.example.singin_belosludtseva;
+package com.example.singin_belosludtseva.presentations;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.singin_belosludtseva.R;
 
 public class LogInActivity extends AppCompatActivity {
 
