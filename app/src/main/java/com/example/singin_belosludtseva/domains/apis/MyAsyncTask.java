@@ -2,13 +2,12 @@ package com.example.singin_belosludtseva.domains.apis;
 
 import android.os.AsyncTask;
 
-import com.example.singin_belosludtseva.datas.CheckInternet;
+import com.example.singin_belosludtseva.datas.common.CheckInternet;
 import com.example.singin_belosludtseva.domains.callbacks.MyResponseCallback;
 
 public class MyAsyncTask extends AsyncTask<Void, Void, String> {
 
     protected MyResponseCallback callback;
-
     protected CheckInternet checkInternet;
 
     public MyAsyncTask(CheckInternet checkInternet, MyResponseCallback callback) {
@@ -26,7 +25,6 @@ public class MyAsyncTask extends AsyncTask<Void, Void, String> {
         super.onPostExecute(result);
 
         if(callback != null) {
-
             if(result != null && !result.startsWith("Error")) {
                 callback.onComplete(result);
             } else {

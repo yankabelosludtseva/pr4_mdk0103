@@ -1,4 +1,4 @@
-package com.example.singin_belosludtseva.datas;
+package com.example.singin_belosludtseva.datas.common;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

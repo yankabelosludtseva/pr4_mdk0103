@@ -17,7 +17,7 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31" >
         <activity
-            android:name="datas.common.CheckInternet"
+            android:name=".datas.common.CheckInternet"
             android:exported="false" />
         <activity
             android:name=".presentations.LogInActivity"
